@@ -1,5 +1,5 @@
 # warm_up_project
-## Name : XXX
+## Name : 劉千慈
 
 * About throughputs , please record the Tokens / Sec of Eval Time 
 
