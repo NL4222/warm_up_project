@@ -6,7 +6,7 @@
 ### Basic Challenge
 | Throughputs (Tokens/sec) | CPU      | GPU      | 
 | --------                 | -------- | -------- | 
-| tinyllama-1.1b-chat-v0.3.Q4_K_M.gguf  | 6.74     | 9.35     |
+| tinyllama-1.1b-chat-v0.3.Q4_K_M.gguf  | 9.35     | XXXX    |
 
 
 ### Medium Challenge
