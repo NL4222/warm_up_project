@@ -44,5 +44,9 @@
   The time that CPU use is about ten times as longer as GPU.   
   
 * Will quantization or smaller-parameters model impact model accuracy or inference throughput ? If so , what's the variation?
+  Although I didn't complete the part, I think both of them impact the model accuracy and throughput.  
+  Quantization and smaller-parameter are both reduce the accuracy, but both of them get greater throughput.  
+  Because the Quantization may represent the detail in modeal not well, the accuracy will decrease. However, the thoughput will be faster.  
+  As the same token in  smaller-parameter, it decrease the parameter, also decrease the ability to learn complex condition.  
 
 
