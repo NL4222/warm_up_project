@@ -34,7 +34,7 @@
 | TinyLlama-1.1B-Chat-v1.0-Q8          | x/10     |
 
 ### Questions
-* What problems you encountered? How you solve it?
+* What problems you encountered? How you solve it?  
    Firstly, I want to use the GPU, however, I set the make only use LLAMA_CUDA.
   And the error message say that I need to use LIBCURL. I try many times and all get the similar error message.
   Then, I check the sample code in hugging face, I find that it's CURL, not LIBCURL.
