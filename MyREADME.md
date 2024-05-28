@@ -12,8 +12,8 @@
 ### Medium Challenge
 | Throughputs (Tokens/sec) | CPU      | GPU      | 
 | --------                 | -------- | -------- | 
-| tinyllama-1.1b-chat-v0.3.Q4_K_M.gguf  | 10.53     | 82.86    |
-| TinyLlama-1.1B-Chat-v1.0-f16  | 8.60     |  60.23    |
+| tinyllama-1.1b-chat-v0.3.Q4_K_M.gguf  | 11.60     | 80.66    |
+| TinyLlama-1.1B-Chat-v1.0-f16  |XXXX    |  XXXX    |
 
 
 
@@ -37,7 +37,9 @@
 * What problems you encountered? How you solve it?  
    Firstly, I want to use the GPU, however, I set the make only use LLAMA_CUDA.
   And the error message say that I need to use LIBCURL. I try many times and all get the similar error message.
-  Then, I check the sample code in hugging face, I find that it's CURL, not LIBCURL.
+  Then, I check the sample code in hugging face, I find that it's CURL, not LIBCURL.  
+  When I want to do the medium part, I have converted the model, but I can't move it to the folder correctly.  
+  Therefore, I can't complete the part, sorry.
 * What you observed between CPU / GPU performance ?  
   By observation, we can find that the Tokens / Sec of Eval Time in GPU is better than CPU.
   All tasks, ex: load, sample, prompt eval and eval, GPU can save much time than CPU.
