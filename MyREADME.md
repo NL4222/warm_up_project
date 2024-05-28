@@ -39,6 +39,9 @@
   And the error message say that I need to use LIBCURL. I try many times and all get the similar error message.
   Then, I check the sample code in hugging face, I find that it's CURL, not LIBCURL.
 * What you observed between CPU / GPU performance ?
+  By observation, we can find that the Tokens / Sec of Eval Time in GPU is better than CPU.
+  All tasks, ex: load, sample, prompt eval and eval, GPU can save much time than CPU.
+  The time that CPU use is about ten times as longer as GPU.   
   
 * Will quantization or smaller-parameters model impact model accuracy or inference throughput ? If so , what's the variation?
 
