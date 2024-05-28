@@ -13,7 +13,7 @@
 | Throughputs (Tokens/sec) | CPU      | GPU      | 
 | --------                 | -------- | -------- | 
 | tinyllama-1.1b-chat-v0.3.Q4_K_M.gguf  | 11.60     | 80.66    |
-| TinyLlama-1.1B-Chat-v1.0-f16  |XXXX    |  XXXX    |
+| TinyLlama-1.1B-Chat-v1.0-f16  | XXXX    |   XXXX    |
 
 
 
