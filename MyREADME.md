@@ -35,7 +35,11 @@
 
 ### Questions
 * What problems you encountered? How you solve it?
-* What you observed between CPU / GPU performance ?    
+  Firstly, I want to use the GPU, however, I set the make only use LLAMA_CUDA.
+  And the error message say that I need to use LIBCURL. I try many times and all get the similar error message.
+  Then, I check the sample code in hugging face, I find that it's CURL, not LIBCURL.
+* What you observed between CPU / GPU performance ?
+  
 * Will quantization or smaller-parameters model impact model accuracy or inference throughput ? If so , what's the variation?
 
 
